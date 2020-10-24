@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bootstrap cheatsheet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <!-- Typography -->
+    <div class="container">
+        <h1 class="page-header">Hello, world!</h1>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it
+            to make a type specimen book.</p>
+
+
+        <!-- Alignment -->
+        <p class="text-left"> Left aligned text </p>
+        <p class="text-center"> Center Aligned text</p>
+        <p class="text-right"> Right Aligned text</p>
+        <p class="text-justify"> Justified Text</p>
+        <p class="text-nowrap"> No wrap text</p>
+
+        <!-- Div floated to right -->
+        <div class="float-left">div floated left</div>
+        <div class="float-right">div floated right</div>
+
+        <!--Clear floats-->
+        <div class="clearfix"></div>
+        <hr>
+
+        <!-- Lists-->
+        <ul class="list-unstyled">
+            <li>this</li>
+            <li>is</li>
+            <li>a</li>
+            <li>vertical</li>
+            <li>list</li>
+        </ul>
+
+        <ul class="list-inline">
+            <li class="list-inline-item">this </li>
+            <li class="list-inline-item">is</li>
+            <li class="list-inline-item">a</li>
+            <li class="list-inline-item">horizontal</li>
+            <li class="list-inline-item">list</li>
+        </ul>
+
+        <hr>
+        <!-- Colors-->
+        <p class="text-primary">Blue Text</p>
+        <p class="text-success">Green text</p>
+        <p class="text-info">Teal text</p>
+        <p class="text-warning">Yellow text</p>
+        <p class="text-danger">Red text</p>
+        <p class="text-muted">Gray text</p>
+
+        <!--Backgrounds -->
+        <p class="bg-primary">Blue background</p>
+        <p class="bg-muted">white background</p>
+        <p class="bg-success">Green background</p>
+        <p class="bg-info">Teal background</p>
+        <p class="bg-warning">Yellow background</p>
+        <p class="bg-danger">Red background</p>
+    </div>
+
+    <div class="container">
+        <!-- Buttons-->
+        <button class="btn btn-default">Default button</button>
+        <a href="#" class="btn btn-default">Default link</a>
+        <input type="submit" class="btn btn-default" value="Default Input">
+        <br>
+        <!--Contextual buttons-->
+        <button class="btn btn-default">Default button</button>
+        <button class="btn btn-primary">blue button</button>
+        <button class="btn btn-success">green button</button>
+        <button class="btn btn-info">light blue button</button>
+        <button class="btn btn-warning">yellow button</button>
+        <button class="btn btn-danger">red button</button>
+        <br>
+        <!--Button sizes-->
+        <button class="btn btn-primary btn-lg">large button</button>
+        <button class="btn btn-primary">Default button</button>
+        <button class="btn btn-primary btn-sm">small button</button>
+        <button class="btn btn-primary btn-xs">xsmall</button>
+    </div>
+    <hr>
+    <div class="container">
+        <!--Forms-->
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="add name">
+            </div>
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" placeholder="add email">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" placeholder="add message"></textarea>
+            </div>
+            <div class="form group">
+                <label>Gender</label>
+                <select class="form-control">
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Upload File</label>
+                <input type="file" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <div class="container">
+        <!--Forms-->
+        <p class="lead">Inline form</p>
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="add name">
+            </div>
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" placeholder="add email">
+            </div>
+            <div class="form-group">
+                <label>password</label>
+                <input type="text" class="form-control" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-default">Login</button>
+        </form>
+    </div>
+    <hr>
+    <div class="container">
+        <!--List group-->
+        <ul class="list-group">
+            <p class="lead">List Group</p>
+            <hr>
+            <li class="list-group-item">one</li>
+            <li class="list-group-item">two</li>
+            <li class="list-group-item">three</li>
+            <li class="list-group-item">four</li>
+
+        </ul>
+        <hr>
+    </div>
+    <hr>
+    <div class="container">
+        <!-- Alert-->
+        <p class="lead">Alert</p>
+        <div class="alert alert-success" role="alert">A success Alert </div>
+        <div class="alert alert-info" role="alert">An info Alert </div>
+        <div class="alert alert-warning" role="alert">A warning Alert </div>
+        <div class="alert alert-danger" role="alert">A danger Alert </div>
+        <!--Alert that can be closed-->
+        <div class="alert alert-warning alert-dismissable" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+            You can close this alert
+        </div>
+
+    </div>
+    <br>
+    <!-- Grids-->
+    <div class="container">
+        <!-- grid where 1 div is 2/3 of the container and the last is 1/3-->
+        <div class="row">
+            <!--If i want to keep the same dimenstion on "sm" or small screens I would add that in
+                so the mobile responsiveness doesn't kick in and for really small screens I would add in xs
+            -->
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <p class="lead"> 2/3 of the container</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <p class="lead">1/3 of the container</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                    when an unknown printer took a galley of type and
+                </p>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="lead">1/4 of the container</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        when an unknown printer took a galley of type and
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">1/4 of the container</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        when an unknown printer took a galley of type and
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">1/4 of the container</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        when an unknown printer took a galley of type and
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="lead">1/4 of the container</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        when an unknown printer took a galley of type and
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
